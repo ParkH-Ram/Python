@@ -1,0 +1,1 @@
+print("CS101 is very fantastic")
