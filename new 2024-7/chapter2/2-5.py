@@ -38,4 +38,12 @@ print(dic.items())
 
 print(dic.get('name'))
 
-print(dic.get('what'))
+
+print(dic.get('name',"값이 없슈"))  # --> 3항 연산자 같은? 
+
+print('name' in dic)
+
+if 'name' in dic :
+   print("진실")
+
+else : print("거짓")
