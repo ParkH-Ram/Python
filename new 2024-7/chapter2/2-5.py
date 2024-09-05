@@ -1,49 +1,60 @@
-dic = {'name' : 'ram', 'tall' : '187'}
+# dic = {'name' : 'ram', 'tall' : '187'}
 
 
- ## 새로운 값 추가
-#      # key             #vlaue
-dic['라이징 스타'] =  '이름이 뭐지?'
+#  ## 새로운 값 추가
+# #      # key             #vlaue
+# dic['라이징 스타'] =  '이름이 뭐지?'
 
 
-dic[4] = (1,2,3)
+# dic[4] = (1,2,3)
 
 
-# ## 삭제 
-# del(dic[4])  ## key를 선택해 삭제
+# # ## 삭제 
+# # del(dic[4])  ## key를 선택해 삭제
 
-# print(dic)
+# # print(dic)
 
-# ## 여러값 삭제
-# #del dic['name'], dic['tall']
+# # ## 여러값 삭제
+# # #del dic['name'], dic['tall']
 
-# print(dic)
-
-
-# print(dic['name'])
-# print(dic['tall'])
-
-# ## dic.keys() ->> 키들만 dict 형태로 만들어 주는 함수
-# print(dic.keys())
-
-# for k in dic.keys() : 
-#   print(k)
+# # print(dic)
 
 
+# # print(dic['name'])
+# # print(dic['tall'])
 
-# print(dic.values())
+# # ## dic.keys() ->> 키들만 dict 형태로 만들어 주는 함수
+# # print(dic.keys())
+
+# # for k in dic.keys() : 
+# #   print(k)
 
 
-print(dic.items())
 
-print(dic.get('name'))
+# # print(dic.values())
 
 
-print(dic.get('name',"값이 없슈"))  # --> 3항 연산자 같은? 
+# print(dic.items())
 
-print('name' in dic)
+# print(dic.get('name'))
 
-if 'name' in dic :
-   print("진실")
 
-else : print("거짓")
+# print(dic.get('name',"값이 없슈"))  # --> 3항 연산자 같은? 
+
+# print('name' in dic)
+
+# if 'name' in dic :
+#    print("진실")
+
+# else : print("거짓")
+
+value = set([1,2,3])
+
+print(type(value))
+
+li = list(value)
+
+value.remove(2)
+
+print(value)
+
